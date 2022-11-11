@@ -5,9 +5,14 @@
 // a = 9, b = -3 -> да 
 // a = -3 b = 9 -> нет
 
+Console.Write("Введите число: ");
 int num1 = Convert.ToInt16(Console.ReadLine());
+
+Console.Write("Введите число: ");
 int num2 = Convert.ToInt16(Console.ReadLine());
+
 int squareRoot = (num2 * num2);
+
 if (num1 == squareRoot)
 {
     Console.WriteLine("Да");
