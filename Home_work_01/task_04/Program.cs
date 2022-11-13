@@ -15,8 +15,8 @@ Console.Write("Введите третье число: ");
 int num3 = Convert.ToInt16(Console.ReadLine());
 
 if (num1 > num2 && num1 > num3)
-    Console.WriteLine("Это максимальное чило - " + num1);
+    Console.WriteLine("Это максимальное чило : " + num1);
 else if (num2 > num1 && num2 > num3)
-    Console.WriteLine("Это максимальное чило - " + num2);
+    Console.WriteLine("Это максимальное чило : " + num2);
 else if (num3 > num1 && num3 > num2)
-    Console.WriteLine("Это максимальное чило - " + num3);    
+    Console.WriteLine("Это максимальное чило : " + num3);    
