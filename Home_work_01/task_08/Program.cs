@@ -4,19 +4,13 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-int? num;
-int i = 1;
 Console.Write("Введите число: ");
-num = Convert.ToInt32(Console.ReadLine());
-if (num != null)
-{
-    while (i <= num)
-    {
-        if (i % 2 == 0)
-        {
-            Console.WriteLine(i);
-        }
-        i++;
-    }
-}
+int num = Convert.ToInt32(Console.ReadLine());
 
+int i = 1;
+while (i <= num)
+{
+    if (i % 2 == 0)
+    Console.WriteLine(i);
+    i = i + 1; 
+}
