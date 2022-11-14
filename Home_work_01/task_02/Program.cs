@@ -16,8 +16,12 @@ if (num1 > num2)
     Console.WriteLine("max = " + num1);
     Console.WriteLine("min = " + num2);
 }
-else
+else if (num1 < num2)
 {
     Console.WriteLine("max = " + num2);
     Console.WriteLine("min = " + num1);
+}
+else if (num1 == num2)
+{
+    Console.WriteLine("the numbers are equal");
 }
