@@ -7,7 +7,13 @@
 // 918 -> 8
 
 Console.Write("Введите трёхзначное число: ");
-int num = Convert.ToInt16(Console.ReadLine());
+int num1 = Convert.ToInt16(Console.ReadLine());
 
-//if (num.Lenght == 3);
-  //  Console.WriteLine(num);
+
+if (num1 < 100 || num1 > 999)
+    Console.WriteLine("Чичло не трехзначное!!!");
+else
+{
+    int num2 = num1 % 10;
+    Console.WriteLine(num2);
+}
