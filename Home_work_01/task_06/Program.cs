@@ -9,6 +9,6 @@ Console.Write("Введите число: ");
 int num = Convert.ToInt16(Console.ReadLine());
 
 if (num % 2 == 0)
-    Console.WriteLine("Да " + num + " делится на 2 без остатка");
+    Console.WriteLine("Да, цифра " + num + ", четное число");
 else
-    Console.WriteLine("Нет " + num + " неделится на 2 без остатка");
+    Console.WriteLine("Нет, цифра " + num + ", нечетное число");
