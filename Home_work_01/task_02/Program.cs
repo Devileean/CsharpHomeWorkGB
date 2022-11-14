@@ -23,5 +23,5 @@ else if (num1 < num2)
 }
 else if (num1 == num2)
 {
-    Console.WriteLine("the numbers are equal");
+    Console.WriteLine("The numbers are equal");
 }
