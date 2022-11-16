@@ -4,3 +4,11 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
+
+int random = new Random().Next(100,999);
+Console.WriteLine($"{random}");
+
+int num1 = random / 10; // остаются первые две цыфры трёхзначного числа
+int num2 = num1 % 10;   // убираем остаток и остаётся центральная цифра
+
+Console.WriteLine($"{random} -> {num2}");
