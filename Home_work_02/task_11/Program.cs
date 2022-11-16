@@ -4,3 +4,11 @@
 // 456 -> 46
 // 782 -> 72
 // 918 -> 98
+int random = new Random().Next(100,999);
+Console.WriteLine($"Случайное трёхзначное число: {random}");
+
+int num1 = random / 100; //действие помогает оставить первую цифру
+int num2 = random % 10;  //действие помогает оставить последнюю цифру
+int centralNum = num1 * 10 + num2; //умножаем превую цифру чтобы были десятки и прибавляем последнюю
+
+Console.WriteLine($"{random} -> {centralNum}");
