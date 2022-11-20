@@ -6,12 +6,15 @@
 // 2 -> 1,4
 Console.Write("Введите число: ");
 var num = Convert.ToInt32(Console.ReadLine());
+string arrow = num + " -> ";
+string virgule = ", ";
 
 for (int i = 1; i <= num; i++)
 {
-    Console.WriteLine(Math.Pow(i, 2));
+    virgule = i == num ? "" : ", "; // тернарный оператор
+    arrow = arrow.Insert(arrow.Length,Convert.ToString(Math.Pow(i, 2)) + virgule);
 }
-
+Console.WriteLine(arrow);
 // Console.Write("Введите число: ");
 // var num = Convert.ToInt32(Console.ReadLine());
 // var num2 =1;
