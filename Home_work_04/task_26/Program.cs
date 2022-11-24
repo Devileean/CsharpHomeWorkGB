@@ -15,7 +15,7 @@ int NumberOfDigits(int someNum)
    while (someNum > 0)
     {
         length++;
-        someNum /= 10;
+        someNum /= 10; // someNum = someNum / 10;
     }
     return length;
 }
