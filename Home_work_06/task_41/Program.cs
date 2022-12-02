@@ -20,20 +20,6 @@ int SortedNumbers(int[] anyArray)
     return count;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 static int[] GetEnteredNumbers(string outputText = "")
 {
     var arrayInts = Array.Empty<int>();
