@@ -40,21 +40,6 @@ static double[] GetIntersectionPoints(int[] arrayPoints)
     return new double[]{x, y};
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 static int[] GetEnteredNumbers(string outputText = "")
 {
     var arrayInts = Array.Empty<int>();
