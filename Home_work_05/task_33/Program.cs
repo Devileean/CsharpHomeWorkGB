@@ -6,8 +6,11 @@
 //  3; массив [6, 7, 19, 345, 3] -> да
 
 var array = FillArray(4);
+Console.WriteLine("Введите цифру: ");
+var userNum = Convert.ToInt32(Console.ReadLine());
 Print(array);
-if (FindNum(array, 6))
+
+if (FindNum(array, userNum))
 {
     Console.WriteLine("-> yes");
 }
@@ -23,6 +26,7 @@ bool FindNum(int[] arr, int num)
     {
         return true;
     }
+
     return false;
 }
 
@@ -33,6 +37,7 @@ int[] FillArray(int lenght)// заполнение массива
     {
         array[i] = new Random().Next(1, 15);
     }
+    
     return array;
 }
 
